@@ -1,0 +1,119 @@
+html{
+    background-color: bisque;
+}
+.navdiv{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+}
+#navlist{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 250px;
+    width: fit-content;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+#navlist li {
+    float:inline-end;
+    width: 250px;
+    font-size:28px;
+    font-weight: bold;
+    background-color: darksalmon;
+    margin: 20px;
+    border-radius: 8px;
+}
+#navlist li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navlist li a:hover:not(.active) {
+    background-color: coral;
+    color: #141819;
+    border-radius: 8px;
+}
+.img{
+    width: 100vw;
+}
+.highlight{
+    text-align: center;
+    color: darksalmon;
+    text-shadow: 2px 2px 3px white, 0 0 25px white, 0 0 5px white;
+}
+#img{
+    width: 25%;
+    height: 10%;
+    margin-top: 5%;
+    border: 3px solid darksalmon;
+}
+#motivation{
+    display: flex;
+    justify-content: space-around;
+}
+table, td, tr, th{
+    border: 3px solid darksalmon;
+    border-collapse: collapse;
+}
+table{
+    margin-top: 50px;
+    width: 40%;
+    font-weight: 480;
+}
+thead{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: darksalmon;
+    height: 3em;
+    text-align: center;
+}
+tbody{
+    background-color: lavenderblush;
+}
+.PRICE{
+    text-align: center;
+}
+div.section{
+    margin-top: 5%;
+}
+#psychology{
+    display: flex;
+    justify-content: space-around;
+}
+#adventure{
+    display: flex;
+    justify-content: space-around;
+}
+.quote{
+    font-size: 32px;
+    font-weight: bold;
+    width: fit-content;
+    color:coral;
+    background-color: lavenderblush;
+    text-align: center;
+    box-shadow: 1px 1px 2px coral, 0 0 15px coral, 0 0 5px coral;
+    border-style: dotted;
+    margin-top: 5%;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: grab;
+}
+.toplink{
+    cursor: pointer;
+    position: sticky;
+    float: right;
+    bottom: 1px;
+    right: 1px;
+    font-size: 24px;
+    font-weight: bold;
+    color:darksalmon;
+    text-decoration: none;
+    text-shadow: 2px 2px 3px white, 0 0 25px white, 0 0 5px white;
+}

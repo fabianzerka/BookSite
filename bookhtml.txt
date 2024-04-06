@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Your Library</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1 ">
+        <link rel="stylesheet" type="text/css" href="./book.css">
+    </head>
+    <body>
+        <div>
+            <div class="navdiv">
+                <img class="img" src="./images/header.jpg"/> 
+                <ul id="navlist">
+                    <li><a href="#motivation">MOTIVATION</a></li>
+                    <li><a href="#psychology">PSYCHOLOGY</a></li>
+                    <li><a href="#adventure">ADVENTURE</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <h1 class="highlight">MOTIVATION</h1>
+                <div id="motivation">
+                    <img id="img" src="./images/motivation_girlboss.jpg" alt="Girlboss"/>
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> GIRLBOSS
+                                    <ul>
+                                        <li>Author: Sophia Amoruso</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: A GIRLBOSS takes the reins of her life. She achieves everything she wants,because she works for this purpose</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 200 L</td>
+                            </tr>
+                            <tr>
+                                <td> EMOTIONAL INTELLIGENCE
+                                    <ul>
+                                        <li>Author: Travis Bradberry, Jean Greaves</li>
+                                        <li>Publishing house: Minerva</li>
+                                        <li>Description: A quick read with catchy anecdotes and a good context through which to understand and improve your score.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 200 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE BALLOON HUNTER
+                                    <ul>
+                                        <li>Author: Khaled Hosseini</li>
+                                        <li>Publishing house: OMSCA-1</li>
+                                        <li>Description: An unusual and powerful novel that has already become a beloved classic, - unique in its kind.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE ALCHEMIST
+                                    <ul>
+                                        <li>Author: Paulo Coelho</li>
+                                        <li>Publishing house: Toena</li>
+                                        <li>Description: Ones in a few decades happenns that a book changes the lives of its readers forever.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">800 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1 class="highlight">PSYCHOLOGY</h1>
+                <div id="psychology">
+                    
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> THE QUEEN'S GAMBIT
+                                    <ul>
+                                        <li>Author: Walter Tevis</li>
+                                        <li>Publishing house: Jozef</li>
+                                        <li>Description: The Queen's Gambit is a 1983 American novel by Walter Tevis, exploring the life of fictional female chess prodigy Beth Harmon. A bildungsroman, or coming-of-age story, it covers themes of adoption, feminism, chess, drug addiction and alcoholism.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 300 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE SCHOPENAUER CURE
+                                    <ul>
+                                        <li>Author: Irvin D. Yalom</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: The relationship between a psychotherapist and a patient, who is not a person anyway but a supporter and connoisseur of Schopenhauer's philosophy comes in a brilliant narrative by Irvin D. Yalom.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> WHEN NIETZCHE WEPT
+                                    <ul>
+                                        <li>Author: Irvin D. Yalom</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: Friedrich Nietzsche, the great European philosopher, is on the verge of suicide out of desperation, powerless to find a cure for his pain.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> EGO IS THE ENEMY
+                                    <ul>
+                                        <li>Author: Ryan Holiday</li>
+                                        <li>Publishing house: Minerva</li>
+                                        <li>Description: One of the most loyal thinkers of Stoicism as a philosophy and way of life, even in this book the author comes to us with a sketch of how the human being should perfect himself by managing the human ego.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img id="img" src="./images/psychology_the-queen-s-gambit.jpg" alt="The queen's Gambit"/>
+                </div>
+            </div>   
+
+            <div class="section">
+                <h1 class="highlight">ADVENTURE</h1>
+                <div id="adventure">
+                    <img id="img" src="./images/adventure_shpirt-i-eger.jpg" alt="Wild Spirit"/>
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> WILD SPIRIT 
+                                    <ul>
+                                        <li>Author:  Cheryl Strayed</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: A book full of emotions ... makes you feel the scorching heat of the desert, the ice of the Sierra Heights and the impressive power of an extraordinary woman.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 300 L</td>
+                            </tr>
+                            <tr>
+                                <td> TREASURE ISLAND 
+                                    <ul>
+                                        <li>Author: Robert Louis Stevenson</li>
+                                        <li>Publishing house: Albas</li>
+                                        <li>Description: Treasure Island is an adventure novel by Scottish author Robert Louis Stevenson, telling a story of "buccaneers and buried gold".</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">600 L</td>
+                            </tr>
+                            <tr>
+                                <td> LIFE OF PI
+                                    <ul>
+                                        <li>Author: Yann Martel</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: The protagonist is Piscine Molitor "Pi" Patel, an Indian boy from Pondicherry who explores issues of spirituality and metaphysics from an early age.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> INTO THIN AIR
+                                    <ul>
+                                        <li>Author: Jon Krakauer</li>
+                                        <li>Publishing house: Toena</li>
+                                        <li>Description: It details Krakauer's experience in the 1996 Mount Everest disaster, in which eight climbers were killed and several others were stranded by a storm.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="quote"> " A reader lives a thousand lives before he dies. " </div>
+            <a class="toplink" href="#navlist">Kreu&#8593;</a>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Your Library</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1 ">
+        <link rel="stylesheet" type="text/css" href="./book.css">
+    </head>
+    <body>
+        <div>
+            <div class="navdiv">
+                <img class="img" src="./images/header.jpg"/> 
+                <ul id="navlist">
+                    <li><a href="#motivation">MOTIVATION</a></li>
+                    <li><a href="#psychology">PSYCHOLOGY</a></li>
+                    <li><a href="#adventure">ADVENTURE</a></li>
+                    <li><a href="#romance">ROMANCE</a></li>
+                </ul>
+            </div>
+            <div class="section">
+                <h1 class="highlight">MOTIVATION</h1>
+                <div id="motivation">
+                    <img id="img" src="./images/motivation_girlboss.jpg" alt="Girlboss"/>
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> GIRLBOSS
+                                    <ul>
+                                        <li>Author: Sophia Amoruso</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: A GIRLBOSS takes the reins of her life. She achieves everything she wants,because she works for this purpose</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 200 L</td>
+                            </tr>
+                            <tr>
+                                <td> EMOTIONAL INTELLIGENCE
+                                    <ul>
+                                        <li>Author: Travis Bradberry, Jean Greaves</li>
+                                        <li>Publishing house: Minerva</li>
+                                        <li>Description: A quick read with catchy anecdotes and a good context through which to understand and improve your score.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 200 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE BALLOON HUNTER
+                                    <ul>
+                                        <li>Author: Khaled Hosseini</li>
+                                        <li>Publishing house: OMSCA-1</li>
+                                        <li>Description: An unusual and powerful novel that has already become a beloved classic, - unique in its kind.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE ALCHEMIST
+                                    <ul>
+                                        <li>Author: Paulo Coelho</li>
+                                        <li>Publishing house: Toena</li>
+                                        <li>Description: Ones in a few decades happenns that a book changes the lives of its readers forever.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">800 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div class="section">
+                <h1 class="highlight">PSYCHOLOGY</h1>
+                <div id="psychology">
+                    
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> THE QUEEN'S GAMBIT
+                                    <ul>
+                                        <li>Author: Walter Tevis</li>
+                                        <li>Publishing house: Jozef</li>
+                                        <li>Description: The Queen's Gambit is a 1983 American novel by Walter Tevis, exploring the life of fictional female chess prodigy Beth Harmon. A bildungsroman, or coming-of-age story, it covers themes of adoption, feminism, chess, drug addiction and alcoholism.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 300 L</td>
+                            </tr>
+                            <tr>
+                                <td> THE SCHOPENAUER CURE
+                                    <ul>
+                                        <li>Author: Irvin D. Yalom</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: The relationship between a psychotherapist and a patient, who is not a person anyway but a supporter and connoisseur of Schopenhauer's philosophy comes in a brilliant narrative by Irvin D. Yalom.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> WHEN NIETZCHE WEPT
+                                    <ul>
+                                        <li>Author: Irvin D. Yalom</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: Friedrich Nietzsche, the great European philosopher, is on the verge of suicide out of desperation, powerless to find a cure for his pain.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> EGO IS THE ENEMY
+                                    <ul>
+                                        <li>Author: Ryan Holiday</li>
+                                        <li>Publishing house: Minerva</li>
+                                        <li>Description: One of the most loyal thinkers of Stoicism as a philosophy and way of life, even in this book the author comes to us with a sketch of how the human being should perfect himself by managing the human ego.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img id="img" src="./images/psychology_the-queen-s-gambit.jpg" alt="The queen's Gambit"/>
+                </div>
+            </div>   
+
+            <div class="section">
+                <h1 class="highlight">ADVENTURE</h1>
+                <div id="adventure">
+                    <img id="img" src="./images/adventure_shpirt-i-eger.jpg" alt="Wild Spirit"/>
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> WILD SPIRIT 
+                                    <ul>
+                                        <li>Author:  Cheryl Strayed</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: A book full of emotions ... makes you feel the scorching heat of the desert, the ice of the Sierra Heights and the impressive power of an extraordinary woman.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 300 L</td>
+                            </tr>
+                            <tr>
+                                <td> TREASURE ISLAND 
+                                    <ul>
+                                        <li>Author: Robert Louis Stevenson</li>
+                                        <li>Publishing house: Albas</li>
+                                        <li>Description: Treasure Island is an adventure novel by Scottish author Robert Louis Stevenson, telling a story of "buccaneers and buried gold".</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">600 L</td>
+                            </tr>
+                            <tr>
+                                <td> LIFE OF PI
+                                    <ul>
+                                        <li>Author: Yann Martel</li>
+                                        <li>Publishing house: Morava</li>
+                                        <li>Description: The protagonist is Piscine Molitor "Pi" Patel, an Indian boy from Pondicherry who explores issues of spirituality and metaphysics from an early age.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">900 L</td>
+                            </tr>
+                            <tr>
+                                <td> INTO THIN AIR
+                                    <ul>
+                                        <li>Author: Jon Krakauer</li>
+                                        <li>Publishing house: Toena</li>
+                                        <li>Description: It details Krakauer's experience in the 1996 Mount Everest disaster, in which eight climbers were killed and several others were stranded by a storm.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="section">
+                <h1 class="highlight">ROMANCE</h1>
+                <div id="romance">
+                    
+                    <table>
+                        <thead>
+                            <th>BOOK</th>
+                            <th>PRICE</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td> IT ENDS WITH US  
+                                    <ul>
+                                        <li>Author:  Colleen Hoover</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: A bold and realistic novel, "Ends with Us" is an unforgettable love story.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                            <tr>
+                                <td> PROMISE TO LOVE  
+                                    <ul>
+                                        <li>Author: Pedro Chagas Freltas</li>
+                                        <li>Publishing house: Bota Shqiptare</li>
+                                        <li>Description: A novel about the different forms of love. A journey into emotions and feelings.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 000 L</td>
+                            </tr>
+                            <tr>
+                                <td> FOREVER ME 
+                                    <ul>
+                                        <li>Author: Jojo Moyes</li>
+                                        <li>Publishing house: Uegen</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 200 L</td>
+                            </tr>
+                            <tr>
+                                <td> CONFESS
+                                    <ul>
+                                        <li>Author: Colleen Hoover</li>
+                                        <li>Publishing house: Living</li>
+                                        <li>Description: Confess is romantic story about two young people, who risc all for love.</li>
+                                    </ul>
+                                </td>
+                                <td class="PRICE">1 100 L</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <img id="img" src="./images/romance_mbaron-me-ne.jpg" alt="Wild Spirit"/>
+                </div>
+            </div>
+            <div class="quote"> " A reader lives a thousand lives before he dies. " </div>
+            
+            <div class="images"> Book Copertines </div>
+            <div class="row">
+                <div class="column">
+                    <img id="img1" src="./images/motivation_girlboss.jpg" width="100%">
+                </div>
+                <div class="column">
+                    <img id="img1" src="./images/psychology_the-queen-s-gambit.jpg" width="100%">
+                </div>
+                <div class="column">
+                    <img id="img1" src="./images/adventure_shpirt-i-eger.jpg" width="100%">
+                </div>
+            </div>
+            <a class="toplink" href="#navlist">Kreu&#8593;</a>
+        </div>
+    </body>
+</html>
+
